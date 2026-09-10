@@ -1,0 +1,94 @@
+<mxfile host="Electron">
+  <diagram name="Strona-1" id="VqY9t7vyuydOVOErr0bx">
+    <mxGraphModel dx="911" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="teA01U64K7JtpoKLNmTi-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="215" x="174" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-1" parent="teA01U64K7JtpoKLNmTi-3" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="214.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-2" parent="teA01U64K7JtpoKLNmTi-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Customers&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PK customer_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="18.46153846153846" width="87.95454545454545" x="63.52272727272727" y="30.769230769230766" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-4" edge="1" parent="1" style="endArrow=ERoneToMany;html=1;rounded=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280.79" y="160" as="sourcePoint" />
+            <mxPoint x="280.79" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="215" x="174" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-6" parent="teA01U64K7JtpoKLNmTi-5" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="214.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-7" parent="teA01U64K7JtpoKLNmTi-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Orders&lt;br&gt;&lt;br&gt;PK order_id&lt;br&gt;FK customer_id" vertex="1">
+          <mxGeometry height="18.46153846153846" width="87.95454545454545" x="63.52272727272727" y="30.769230769230766" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-9" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="80" width="215" x="174" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-10" parent="teA01U64K7JtpoKLNmTi-9" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="214.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-11" parent="teA01U64K7JtpoKLNmTi-9" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Order_items&lt;br&gt;&lt;br&gt;FK order_id&lt;div&gt;FK product_id&lt;br&gt;FK seller_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="18.46153846153846" width="87.95454545454545" x="63.52272727272727" y="30.769230769230766" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="customer_id" vertex="1">
+          <mxGeometry height="30" width="60" x="204" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="order_id" vertex="1">
+          <mxGeometry height="30" width="60" x="204" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order_payments&lt;br&gt;&lt;br&gt;PK payment_id&lt;br&gt;FK order_id" vertex="1">
+          <mxGeometry height="90" width="150" x="530" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="order_id" vertex="1">
+          <mxGeometry height="30" width="60" x="424" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-32" edge="1" parent="1" style="endArrow=ERoneToMany;html=1;rounded=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280.79" y="360" as="sourcePoint" />
+            <mxPoint x="280.79" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-33" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="389" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-36" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="389" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Order_reviews&lt;br&gt;&lt;br&gt;PK review_id&lt;br&gt;FK order_id" vertex="1">
+          <mxGeometry height="90" width="150" x="530" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-41" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=none;startArrow=ERoneToMany;rounded=0;startFill=0;endFill=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="389" y="500" as="sourcePoint" />
+            <mxPoint x="510" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-42" edge="1" parent="1" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=none;startArrow=ERoneToMany;rounded=0;startFill=0;endFill=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="389" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Products&lt;br&gt;&lt;br&gt;PK product_id" vertex="1">
+          <mxGeometry height="90" width="150" x="530" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="teA01U64K7JtpoKLNmTi-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sellers&lt;br&gt;&lt;br&gt;PK seller_id" vertex="1">
+          <mxGeometry height="90" width="150" x="530" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
